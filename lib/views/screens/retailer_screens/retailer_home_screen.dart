@@ -72,6 +72,7 @@ class _RetailerHomeScreenState extends State<RetailerHomeScreen> {
                   Text(product['name']),
                   Text(product['price'].toString()),
                   Text(product['description']),
+                  Text(product['category'])
                 ],
               );
             },
